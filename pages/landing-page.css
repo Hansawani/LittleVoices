@@ -6,7 +6,7 @@ body,html {
   }
   
   body {
-    background-image: url("../assets/landing-bg.jpg");
+    background-image: url("../assets/asset images/landing-bg.jpg");
     filter: blur(20 px);
     -webkit-filter: blur(8 px);
     background-size: cover;
