@@ -20,6 +20,10 @@ body{
     width: 4rem;
     left: 1.3rem;
     cursor: pointer;
+    transition:transform infinite ease-in-out 0s;
+}
+#home-logo:hover{
+    transform:scale(1.3);
 }
 
 #row-2 {
