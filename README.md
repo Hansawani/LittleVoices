@@ -1,7 +1,13 @@
 # littleVoices
 Problem Statement: Development of gamified platform on Children's Rights to increase legal literacy and awareness among children in India
 
-
+Structure Description:
+- landing page: contains info about us and how the user can contact us
+- menu page: contains 4 panels leading to the following subpages:
+    -> watch and learn page
+    -> interactive learning page
+    -> stories page
+    -> help center page
 
 
 All images are designed by freepik
