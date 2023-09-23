@@ -1,0 +1,62 @@
+
+body {
+    background-image: url("../assets/asset images/watch-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+#logo {
+    float: right;
+}
+
+#home-logo {
+    float: left;
+}
+
+.boxR {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(240, 248, 255,0.8);
+    padding: 5%;
+    border-radius: 10%;
+}
+
+p {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.boxL {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(240, 248, 255,0.8);
+    padding: 5%;
+    border-radius: 10%;
+}
+
+.textbox {
+    width: 100%;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 10%;
+    color: rgb(0,0,0);
+    align-content: center;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#containerL iframe{
+    float: left;
+    padding: 2%;
+}
+
+#containerR iframe{
+    float: right;
+    padding: 2%;
+}
