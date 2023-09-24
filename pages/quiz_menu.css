@@ -1,5 +1,5 @@
 body {
-    background-image: url(../assets/story3.jpeg);
+    background-image: url('../assets/asset images/story3-bg.jpeg');
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -36,11 +36,12 @@ body {
     margin: 55px;
     padding: 35px;
   }
+
   div.main-container {
     border: none;
     display: flex;
-    height:
   }
+
   div.age-box {
     padding:60px;
     width: 30%;

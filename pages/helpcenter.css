@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background:url('../assets/story1.png');
+    background:url('../assets/asset images/story1-bg.png');
     background-size: cover;
     padding-bottom:2rem;
 }

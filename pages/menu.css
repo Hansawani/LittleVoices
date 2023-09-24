@@ -28,7 +28,7 @@ body{
     position: absolute;
     top: 0rem;
     width: 4rem;
-    left: 73.5rem;
+    left: 90rem;
     cursor: pointer;
     transition:transform infinite ease-in-out 0s;
 }
