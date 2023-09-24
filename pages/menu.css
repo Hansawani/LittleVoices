@@ -100,3 +100,29 @@ body {
 }
 
 
+/* Media Queries for responsiveness */
+
+/* For phones */
+@media (max-width: 480px) {
+  /* Additional styles for phones here */
+
+body{
+  overflow-x:hidden;
+  max-width: 100%;
+}
+#row-1{
+  
+}
+
+
+}
+
+/* For tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+  /* Additional styles for tablets here */
+}
+
+/* For laptops and larger screens */
+@media (min-width: 1025px) {
+  /* Additional styles for laptops and larger screens here */
+}
