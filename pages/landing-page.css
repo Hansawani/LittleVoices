@@ -38,7 +38,7 @@ body {
   font-size: 2rem;
   font-weight: 550;
   color: #000000;
-  background: 	#F4C2C2;
+  background:	#F4C2C2;
   outline: none;
   cursor: pointer;
   border: 0.5%;
@@ -223,11 +223,11 @@ body {
 }
 .buttons button {
   height: 2rem;
-  width: 10rem;
+  width: auto;
   font-size: 1rem;
   font-weight: 550;
   color: #000000;
-  background: 	#F4C2C2;
+  background: #F4C2C2;
   outline: none;
   cursor: pointer;
   border: 0.5%;
@@ -239,7 +239,6 @@ body {
   font-family: monospace;
   align-items: center;
   display: flex;
-  text-align: center;
 }
 .buttons button:hover {
   transform: scale(1.2);
