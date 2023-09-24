@@ -98,19 +98,40 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 1rem;
 }
-/* Media Queries for responsiveness */
-
-/* For phones */
+/* Styles for phones */
 @media (max-width: 480px) {
-  /* Additional styles for phones here */
-}
+  /* Reset styles for common elements */
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    background: none;
+  }
 
-/* For tablets */
-@media (min-width: 481px) and (max-width: 1024px) {
-  /* Additional styles for tablets here */
-}
+  .container {
+    width: 100%;
+    border: 1px solid black;
+  }
 
-/* For laptops and larger screens */
-@media (min-width: 1025px) {
-  /* Additional styles for laptops and larger screens here */
+  /* Specific styles for the header and logo on phones */
+  #row-1 {
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+  }
+
+  #home,
+  #logo {
+    position: static;
+    margin: 1rem 0;
+    width: auto;
+  }
+
+  /* Styles for the rows on phones */
+  #row1,
+  #row-2 {
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+    background-color: black;
+  }
 }
