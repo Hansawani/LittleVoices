@@ -100,4 +100,40 @@ body {
 }
 
 
+/* Styles for phones */
+@media (max-width: 480px) {
+  /* Reset styles for common elements */
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    background: none;
+  }
 
+  .container {
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  /* Specific styles for the header and logo on phones */
+  #row-1 {
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+  }
+
+  #home,
+  #logo {
+    position: static;
+    margin: 1rem 0;
+    width: auto;
+  }
+
+  /* Styles for the rows on phones */
+  #row1,
+  #row-2 {
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+    background-color: black;
+  }
+}

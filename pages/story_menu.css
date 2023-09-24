@@ -114,16 +114,38 @@ p{
 /* Media Queries for responsiveness */
 
 /* For phones */
-@media (max-width: 480px) {
-  /* Additional styles for phones here */
+@media (max-width:480px) {
+  body {
+    background-size: cover; 
+    overflow-x: hidden;
+    align-items: center;
 }
-
-/* For tablets */
-@media (min-width: 481px) and (max-width: 1024px) {
-  /* Additional styles for tablets here */
+img {
+    width: 15%; 
 }
-
-/* For laptops and larger screens */
-@media (min-width: 1025px) {
-  /* Additional styles for laptops and larger screens here */
+#Home {
+    width: 17%; 
+}
+div.main-container {
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: -7%;
+}
+div.age-box {
+    width: 100%;    
+}
+#container-1, #container-2 {
+    float: none; 
+}
+div.option {
+    font-size: medium;
+    width: 75%; 
+    margin-left: 2.8%; 
+}
+h1 {
+    font-size: 1.6rem; 
+}
+h5 {
+    font-size: large;
+}
 }
