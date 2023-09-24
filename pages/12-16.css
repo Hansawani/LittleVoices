@@ -1,5 +1,5 @@
 body {
-    background-image: url('../assets/quiz-bg.jpg');
+    background-image: url("../assets/asset images/quiz.bg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -46,12 +46,7 @@ img{
 }
 #home
 {
-<<<<<<< Updated upstream:pages/question.css
-    width: 6rem;
-    height:70%;
-=======
     width: 4.5rem;
->>>>>>> Stashed changes:pages/13-16.css
 
 }
 #logo
