@@ -37,8 +37,8 @@ body {
   width: 17rem;
   font-size: 2rem;
   font-weight: 550;
-  color: #4d3030;
-  background: rgb(219, 176, 176);
+  color: #000000;
+  background: 	#F4C2C2;
   outline: none;
   cursor: pointer;
   border: 0.5%;
@@ -60,9 +60,9 @@ body {
 
 .textbox {
   width: 50%;
-  background-color: #e1be86;
+  background-color: #e6ca9a;
   margin: auto;
-  font-size: xx-large;
+  font-size: x-large;
   color: rgb(69, 35, 35) !important;
   padding-bottom: 0.4rem;
   padding-top: 0.4rem;
@@ -71,7 +71,7 @@ body {
   justify-content: center;
   font-weight: 700;
   border-radius: 1rem;
-  font-family: monospace;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .animate {
@@ -99,7 +99,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family:cursive;
 }
 
 @keyframes textclip {
