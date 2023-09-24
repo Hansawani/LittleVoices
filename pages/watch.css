@@ -1,62 +1,78 @@
-
 body {
-    background-image: url("../assets/asset images/watch-bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+  background-image: url("../assets/asset images/watch-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #logo {
-    float: right;
+  float: right;
 }
 
 #home-logo {
-    float: left;
+  float: left;
 }
 
 .boxR {
-    width: 30%;
-    margin: auto;
-    display: flex;
-    background-color: rgb(240, 248, 255,0.8);
-    padding: 5%;
-    border-radius: 10%;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  background-color: rgb(240, 248, 255, 0.8);
+  padding: 5%;
+  border-radius: 10%;
 }
 
 p {
-    text-align: center;
-    font-family: fantasy;
-    font-size: 3rem;
-    font-weight: 800;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .boxL {
-    width: 30%;
-    margin: auto;
-    display: flex;
-    background-color: rgb(240, 248, 255,0.8);
-    padding: 5%;
-    border-radius: 10%;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  background-color: rgb(240, 248, 255, 0.8);
+  padding: 5%;
+  border-radius: 10%;
 }
 
 .textbox {
-    width: 100%;
-    margin: auto;
-    font-size: xx-large;
-    font-weight: 600;
-    padding: 10%;
-    color: rgb(0,0,0);
-    align-content: center;
-    float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  margin: auto;
+  font-size: xx-large;
+  font-weight: 600;
+  padding: 10%;
+  color: rgb(0, 0, 0);
+  align-content: center;
+  float: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-#containerL iframe{
-    float: left;
-    padding: 2%;
+#containerL iframe {
+  float: left;
+  padding: 2%;
 }
 
-#containerR iframe{
-    float: right;
-    padding: 2%;
+#containerR iframe {
+  float: right;
+  padding: 2%;
+}
+/* Media Queries for responsiveness */
+
+/* For phones */
+@media (max-width: 480px) {
+  /* Additional styles for phones here */
+}
+
+/* For tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+  /* Additional styles for tablets here */
+}
+
+/* For laptops and larger screens */
+@media (min-width: 1025px) {
+  /* Additional styles for laptops and larger screens here */
 }

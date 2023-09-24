@@ -1,5 +1,5 @@
 body {
-  background-image: url('../assets/asset images/story4-bg.jpeg');
+  background-image: url("../assets/asset images/story4-bg.jpeg");
   text-align: center;
   margin: 0px;
   padding: 0px;
@@ -110,4 +110,20 @@ h5 {
   max-height: 80%;
   overflow-y: auto;
   font-size: large;
+}
+/* Media Queries for responsiveness */
+
+/* For phones */
+@media (max-width: 480px) {
+  /* Additional styles for phones here */
+}
+
+/* For tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+  /* Additional styles for tablets here */
+}
+
+/* For laptops and larger screens */
+@media (min-width: 1025px) {
+  /* Additional styles for laptops and larger screens here */
 }
