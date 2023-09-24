@@ -14,7 +14,7 @@ const Questions = [{
 },
 {
 	q: "3.Safe Drinking Water: You notice that the water from the tap in your school looks dirty and smells strange. What should you do about it, and why is it important to have clean drinking water?",
-	a: [{ text: "Report the issue to a teacher or school staff.", isCorrect: false },
+	a: [{ text: "Report the issue to a teacher or school staff.", isCorrect: true },
 	{ text: " Continue drinking the tap water despite its appearance and smell.", isCorrect: false },
 	],r: 1
 
@@ -22,104 +22,104 @@ const Questions = [{
 {
 	q: "4. Nutritious Food Choice: You're at a birthday party, and there's a choice between pizza and a salad with lots of colorful veggies. Which one would you choose to eat?",
 	a: [{ text: "Choose pizza because it's delicious and everyone else is having it", isCorrect: false },
-	{ text: "Choose the salad with colorful veggies because it's healthier.", isCorrect: false },
+	{ text: "Choose the salad with colorful veggies because it's healthier.", isCorrect: true },
 	],r: 1
 
 },
 {
 	q: "5.Environmental Cleanup: You and your friends see a lot of trash in a nearby park. What do you do?",
-	a: [{ text: "Collect some of the trash and ask adults for help with disposal.", isCorrect: false },
-	{ text: "VLeave the park and do nothing about the trash.", isCorrect: false },
+	a: [{ text: "Collect some of the trash and ask adults for help with disposal.", isCorrect: true },
+	{ text: "Leave the park and do nothing about the trash.", isCorrect: false },
 	],r: 1
 
 },
 {
 	q: "6. You see a classmate being teased and bullied by some older kids on the way home from school. What should you do",
-	a: [{ text: "Go and join the older kids in teasing your classmate to fit in", isCorrect: true },
-	{ text: "Stand up for your classmate and tell a trusted adult about the situation.", isCorrect: false }],r: 2
+	a: [{ text: "Go and join the older kids in teasing your classmate to fit in", isCorrect: false },
+	{ text: "Stand up for your classmate and tell a trusted adult about the situation.", isCorrect: true }],r: 2
 
 },
 {
 	q: "7. Your friend often comes to school hungry, and they always look tired and sad. What could you do to help your friend??",
-	a: [{ text: "Ignore your friend's hunger and tiredness.", isCorrect: true, isSelected: false },
-	{ text: "Share your snacks or lunch with your friend, and let a teacher or school counselor know about the situation.", isCorrect: false },
+	a: [{ text: "Ignore your friend's hunger and tiredness.", isCorrect: false, isSelected: false },
+	{ text: "Share your snacks or lunch with your friend, and let a teacher or school counselor know about the situation.", isCorrect: true },
 	],r: 2
 
 },
 {
 	q: "8. Your younger sibling tells you that someone touched them inappropriately and told them not to tell anyone. What should you do?",
 	a: [{ text: "Ignore what your sibling told you and go about your day.", isCorrect: false },
-	{ text: "Comfort your sibling, reassure them that they did the right thing by telling you, and report the incident to a trusted adult immediately.", isCorrect: false },
+	{ text: "Comfort your sibling, reassure them that they did the right thing by telling you, and report the incident to a trusted adult immediately.", isCorrect: true },
 	],r: 2
 
 },
 {
 	q: "9. You find some colorful pills in your friend's bag, and they tell you they got them from someone at school. What should you do?",
 	a: [{ text: "Encourage your friend to take the pills.", isCorrect: false },
-	{ text: "Refuse the pills and inform a trusted adult about the situation, even if your friend asks you not to.", isCorrect: false },
+	{ text: "Refuse the pills and inform a trusted adult about the situation, even if your friend asks you not to.", isCorrect: true },
 	],r: 2
 
 },
 {
 	q: "10. Your class is discussing what movie to watch for movie day, and you have a different opinion from most of your classmates. What would you do?",
 	a: [{ text: "Keep your opinion to yourself and go along with what the majority wants.", isCorrect: false },
-	{ text: "Respectfully share your movie preference with your classmates and suggest a compromise or alternative option.", isCorrect: false },
+	{ text: "Respectfully share your movie preference with your classmates and suggest a compromise or alternative option.", isCorrect: true },
 	],r: 3
 
 },
 {
 	q: "11. You have a talent for drawing and want to create a mural on the school wall. What would you do if you want to take part in it?",
 	a: [{ text: "Start painting the mural without permission.", isCorrect: false },
-	{ text: "Seek permission from the school administration, gather support from interested classmates, and plan the mural project with the school's approval", isCorrect: false },
+	{ text: "Seek permission from the school administration, gather support from interested classmates, and plan the mural project with the school's approval", isCorrect: true },
 	],r: 3
 
 },
 {
 	q: "12. You want to start a club at your school for kids who love reading books. Would you go about forming this club?",
 	a: [{ text: "Keep your idea to yourself and not take any action.", isCorrect: false },
-	{ text: "Approach your school's teacher or principal, share your idea, and ask for assistance in creating the reading club.", isCorrect: false },
+	{ text: "Approach your school's teacher or principal, share your idea, and ask for assistance in creating the reading club.", isCorrect: true },
 	],r: 3
 
 },
 {
 	q: "13. You're curious about a famous historical event, but you can't find any information in your school library. What would you do to access the information you need?",
 	a: [{ text: " Give up on researching the event since it's not in the school library.", isCorrect: false },
-	{ text: "Ask your teacher or librarian for suggestions on other sources or visit a public library or search online for information.", isCorrect: false },
+	{ text: "Ask your teacher or librarian for suggestions on other sources or visit a public library or search online for information.", isCorrect: true },
 	],r: 3
 
 },
 {
 	q: "14. Your school is planning a field trip, and you have some ideas about where to go and what activities to do. Would you share your ideas with your classmates and teacher?",
 	a: [{ text: "Insist on your ideas without considering others' suggestions.", isCorrect: false },
-	{ text: "Encourage open discussion with your classmates and teacher, listen to their ideas, and work together to plan a field trip that incorporates various suggestions.", isCorrect: false },
+	{ text: "Encourage open discussion with your classmates and teacher, listen to their ideas, and work together to plan a field trip that incorporates various suggestions.", isCorrect: true },
 	],r: 3
 
 },
 {
 	q: "15. Do you know why you should go to school and recieve education?",
 	a: [{ text: "To skip school and have more free time.", isCorrect: false },
-	{ text: "To gain knowledge, learn important life skills, and prepare for the future.", isCorrect: false },
+	{ text: "To gain knowledge, learn important life skills, and prepare for the future.", isCorrect: true },
 	],r: 4
 
 },
 {
 	q: "16. Imagine one day your school suddenly says you can't come to class anymore. What would you do, and who would you talk to about it?",
 	a: [{ text: "Accept the decision and stop attending school.", isCorrect: false },
-	{ text: "Talk to your parents or guardians and contact the school administration or authorities to resolve the issue.", isCorrect: false },
+	{ text: "Talk to your parents or guardians and contact the school administration or authorities to resolve the issue.", isCorrect: true },
 	],r: 4
 
 },
 {
 	q: "17. Do you relax and play regulary?",
 	a: [{ text: "No, I should always be studying and working.", isCorrect: false },
-	{ text: "Yes, it's important to relax and play to maintain a healthy balance in life.", isCorrect: false },
+	{ text: "Yes, it's important to relax and play to maintain a healthy balance in life.", isCorrect: true },
 	],r: 4
 
 },
 {
 	q: "18. Do you participate in sports or physical activities regularly?",
 	a: [{ text: "No, physical activities are not necessary.", isCorrect: false },
-	{ text: "Yes, participating in sports or physical activities regularly promotes physical fitness and overall well-being.", isCorrect: false },
+	{ text: "Yes, participating in sports or physical activities regularly promotes physical fitness and overall well-being.", isCorrect: true },
 	],r: 4
 
 }
