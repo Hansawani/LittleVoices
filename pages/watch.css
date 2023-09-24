@@ -17,15 +17,15 @@ body {
   width: 30%;
   margin: auto;
   display: flex;
-  background-color: rgb(240, 248, 255, 0.8);
+  background-color: rgba(239, 218, 239, 0.8);
   padding: 5%;
   border-radius: 10%;
 }
 
 p {
   text-align: center;
-  font-family: fantasy;
-  font-size: 3rem;
+  font-family:cursive;
+  font-size: 4rem;
   font-weight: 800;
 }
 
@@ -33,7 +33,7 @@ p {
   width: 30%;
   margin: auto;
   display: flex;
-  background-color: rgb(240, 248, 255, 0.8);
+  background-color: rgba(243, 244, 225, 0.8);
   padding: 5%;
   border-radius: 10%;
 }
@@ -47,8 +47,8 @@ p {
   color: rgb(0, 0, 0);
   align-content: center;
   float: left;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family:Helvetica;
+  text-align: center;
 }
 
 #containerL iframe {
