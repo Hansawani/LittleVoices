@@ -98,13 +98,9 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 1rem;
 }
+/* Styles for phones */
 @media (max-width: 480px) {
-  /* Additional styles for phones here */
-
-  * {
-    overflow: hidden;
-  }
-
+  /* Reset styles for common elements */
   body {
     padding: 0;
     margin: 0;
@@ -112,34 +108,30 @@ body {
     overflow: hidden;
     background: none;
   }
-  #row-1 {
-    flex-direction: column;
-    width: auto;
-  }
 
-  .container img {
-    width: 100%;
-    height: 100%;
-  }
-
-  #row-2 {
-    flex-direction: column;
-    width: auto;
-    background-color: black;
-  }
   .container {
-    align-self: center;
     width: 100%;
     border: 1px solid black;
   }
-}
 
-/* For tablets */
-@media (min-width: 481px) and (max-width: 1024px) {
-  /* Additional styles for tablets here */
-}
+  /* Specific styles for the header and logo on phones */
+  #row-1 {
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+  }
 
-/* For laptops and larger screens */
-@media (min-width: 1025px) {
-  /* Additional styles for laptops and larger screens here */
+  #home,
+  #logo {
+    position: static;
+    margin: 1rem 0;
+    width: auto;
+  }
+
+  /* Styles for the rows on phones */
+  #row1,
+  #row-2 {
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+    background-color: black;
+  }
 }
