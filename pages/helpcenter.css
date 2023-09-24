@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   box-sizing: border-box;
 }
 body {
@@ -22,7 +22,7 @@ body {
   justify-content: space-around;
 }
 #home-logo {
-  margin-top: 2rem;
+  margin-top: 3rem;
   z-index: 1000;
   position: absolute;
   top: 0rem;
@@ -47,11 +47,13 @@ body {
   margin-left: 0.7rem;
   margin-right: 0.7rem;
   border-radius: 5%;
+  border-radius: 10%;
 }
 
 .container img {
   height: 100%;
   width: 100%;
+  border-radius: 10%;
 }
 
 .container2 {
@@ -118,6 +120,7 @@ body {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 #text,
@@ -173,11 +176,57 @@ body {
   margin-right: 1.6rem;
 }
 
-/* Media Queries for responsiveness */
-
-/* For phones */
+/* Add styles for phones */
 @media (max-width: 480px) {
-  /* Additional styles for phones here */
+  #parent {
+    margin-top: 5rem; /* Adjust the margin for content alignment */
+  }
+
+  .container {
+    width: 90%; /* Adjust the width for smaller screens */
+    margin: 1rem auto; /* Center the containers */
+    border-radius: 10%;
+  }
+
+  .container img {
+    width: 100%;
+    border-radius: 10%;
+    height: auto;
+  }
+
+  #home-logo {
+    width: 17%; /* Adjust the home button size */
+    left: 0.5rem;
+    padding-top: 0;
+    margin-top: 1rem;
+  }
+
+  #row-1,
+  #row-2 {
+    flex-direction: column; /* Stack the containers vertically */
+  }
+
+  .photo {
+    margin-top: 1rem; /* Adjust spacing between photos */
+    width: 100%;
+  }
+
+  .text,
+  #text,
+  #text1,
+  #text2,
+  #text3,
+  #text4 {
+    font-size: 1rem; /* Adjust text size */
+    padding: 1rem;
+  }
+
+  .website-logo,
+  .phone-logo,
+  .mail-logo {
+    height: 1.2rem; /* Adjust icon sizes */
+    margin-right: 0.5rem;
+  }
 }
 
 /* For tablets */
