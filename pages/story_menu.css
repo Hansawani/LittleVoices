@@ -1,5 +1,5 @@
 body {
-  background-image: url("../assets/asset images/story4-bg.jpeg");
+  background-image: url("../assets/asset images/story4-bg.jpg");
   text-align: center;
   margin: 0px;
   padding: 0px;
@@ -99,7 +99,7 @@ h5 {
 }
 
 #story-content {
-  background-image: url("../assets/asset images/story2-bg.jpeg");
+  background-image: url("../assets/asset images/story2-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: white;
