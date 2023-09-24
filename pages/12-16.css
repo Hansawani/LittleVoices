@@ -1,8 +1,7 @@
 body {
-    background-image: url('../assets/quiz-bg.jpg');
+    background-image: url('../assets/asset images/quiz-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
     background-size: 100% 100%;
     font-family : monospace;
 }
@@ -46,12 +45,7 @@ img{
 }
 #home
 {
-<<<<<<< Updated upstream:pages/question.css
-    width: 6rem;
-    height:70%;
-=======
     width: 4.5rem;
->>>>>>> Stashed changes:pages/13-16.css
 
 }
 #logo
@@ -104,7 +98,6 @@ img{
     height: 30%;
     margin: 1%;
     background-color: #18a795;
-    
     border-radius : 10px;
     text-align: center;
     cursor: pointer;
@@ -188,8 +181,6 @@ img{
     
     margin-top: 15%;
     margin-right: 1%;
-    
-    
     transform: rotate(90deg);
     cursor: pointer;
 }
