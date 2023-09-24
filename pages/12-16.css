@@ -161,7 +161,7 @@ img{
 }
 #right
 {
-    color: white;
+    color: yellow;
     position: absolute;
     font-size: 45px;
     left: 50%;
@@ -321,4 +321,90 @@ img{
 	}
 }
 
+/* Media Queries for responsiveness */
 
+/* For phones */
+@media (max-width: 480px) {
+    /* Additional styles for phones here */
+    #ans-image
+    {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #image
+    {
+        align-self: center;
+        margin-left: 10%;
+    }
+   body
+   {
+    overflow-x:hidden;
+    max-width: 100%;
+   
+   }
+   #nav
+   {
+    width:max-content;
+   }
+   #logo
+   {
+    position: absolute;
+    right: 1%;
+   }
+   #ques
+   {
+    margin-top: 10%;
+   }
+   #arrow-r
+   {
+    margin-top: 5%;
+   }
+   #buttons
+   {
+    align-self: center;
+   }
+   #button
+   {
+    width: 60%;
+    align-self: center;
+    margin-right: 30%;
+   }
+   #arrow-l
+   {
+    margin-right: 2%;
+   }
+   /* pop up display changes */
+   #text_image
+   {
+    flex-direction: column;
+   }
+   #right
+   {
+    font-size: 2rem;
+    position:inherit;
+    margin-bottom: 5%;
+   }
+   #mascot_pose_2
+   {
+    height:  10rem;
+    width: 6rem;
+    margin-left: 25%;margin-top: 5%;
+
+   }
+   #text
+   {
+    margin: 0%;
+    
+   }
+   #answers
+   {
+    flex-direction: column;
+    
+   }
+   #right_wrong
+   {
+    font-size: 3rem;
+   }
+  }
+  

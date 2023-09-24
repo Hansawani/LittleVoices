@@ -1,7 +1,7 @@
 
 const Questions = [{
 	q: "1.Imagine your family is going through a difficult time, and you don't have enough food, a proper place to live, or warm clothing during the winter. Do you know if there's something you can do or someone you can talk to about getting help with these basic needs? ",
-	a: [{ text: "No, there's nothing I can do, and no one to talk to about getting help.", isCorrect: true },
+	a: [{ text: "No, there's nothing I can do, and no one to talk to about getting help.", isCorrect: false },
 	{ text: "Yes, there are social services, government agencies, and local organizations I can reach out to for assistance with basic needs.", isCorrect: true }],r: 1
 
 },
