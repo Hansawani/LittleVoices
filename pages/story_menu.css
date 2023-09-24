@@ -55,9 +55,8 @@ div.age-box {
   float: right;
 }
 div.option {
-  /* font-family: "Georgia";  */
-  font-family: "Comic Sans MS";
-  font-weight: 570;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
   font-size: larger;
   background-color: rgb(86, 178, 231);
   cursor: pointer;
@@ -73,14 +72,15 @@ div.option:hover {
 }
 
 h1 {
-  font-family: "Castellar";
-  font-size: 3rem;
+  font-family:cursive;
+  font-size: 4rem;
   text-shadow: 2px 1.5px 2px rgba(35, 35, 35, 0.876);
+  margin:auto;
   /* font-family: "Bookman Old Style"; */
 }
-h5 {
-  font-size: x-large;
-  font-family: "Castellar";
+p{
+  font-size: 2rem;
+  font-family:Arial, Helvetica, sans-serif;
   text-shadow: 1.2px 1px 1.2px rgba(35, 35, 35, 0.876);
 }
 /* Style for the story pop-up */
